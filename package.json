@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "deploy": "push-dir --dir=build/ --branch=gh-pages"
+  },
+  "devDependencies": {
+    "push-dir": "^0.4.1"
+  }
+}
