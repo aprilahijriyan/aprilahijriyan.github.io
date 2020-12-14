@@ -2,7 +2,6 @@ Portfolio Aprila Hijriyan
 =====
 
 Portfolio sederhana dibuat menggunakan Quasar Framework.
-Kalo mau dipake juga tidak apa apa :"
 
 Instalasi
 =====
