@@ -109,7 +109,7 @@
                   </div>
                   <div class="flex justify-end q-gutter-md q-py-md">
                     <q-btn
-                      to="/"
+                      :to="p.repository"
                       icon="lab la-github"
                       label="View on Github"
                       outline
