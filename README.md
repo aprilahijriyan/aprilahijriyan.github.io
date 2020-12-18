@@ -14,6 +14,7 @@ Untuk deploy ke github pages.
 
 ```
 $ git clone https://github.com/aprilahijriyan/aprilahijriyan.github.io.git
+$ cd aprilahijriyan.github.io
 $ yarn install
 $ chmod +x deploy.sh
 $ ./deploy.sh

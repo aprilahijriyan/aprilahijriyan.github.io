@@ -9,12 +9,13 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.0.0",
+    "@quasar/extras": "^1.9.11",
     "core-js": "^3.6.5",
-    "quasar": "^1.0.0"
+    "quasar": "^1.14.7",
+    "vue-good-links": "^0.0.3"
   },
   "devDependencies": {
-    "@quasar/app": "^2.0.0"
+    "@quasar/app": "^2.1.11"
   },
   "browserslist": [
     "last 10 Chrome versions",
