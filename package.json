@@ -1,8 +1,21 @@
 {
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "deploy": "push-dir --dir=build/ --branch=gh-pages --force --verbose"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3"
   },
   "devDependencies": {
-    "push-dir": "^0.4.1"
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nuxt-windicss": "^0.4.4",
+    "prettier": "^2.2.1"
   }
 }

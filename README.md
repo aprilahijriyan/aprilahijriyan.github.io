@@ -1,27 +1,20 @@
-Portfolio Aprila Hijriyan
-=====
+# Portfolio
 
-Portfolio sederhana dibuat menggunakan Quasar Framework.
+## Build Setup
 
-Instalasi
-=====
-
-Untuk deploy ke github pages.
-
-> Note
->> Anda perlu merubah pengaturan branch untuk github pages ke branch ``gh-pages``.
-
-```
-$ git clone https://github.com/aprilahijriyan/aprilahijriyan.github.io.git
-$ cd aprilahijriyan.github.io
+```bash
+# install dependencies
 $ yarn install
-$ chmod +x deploy.sh
-$ ./deploy.sh
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
 ```
 
-Menjalan web dalam mode development.
-
-```
-$ chmod +x run.sh
-$ ./run.sh
-```
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
